@@ -1,0 +1,30 @@
+.boton {
+    background-color: #4CAF50;
+    border: darkblue;
+    color: white;
+    padding: 7.5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 30px;
+    cursor: pointer;
+    transition: all 2s ease-in-out;
+  }
+  
+  .boton:hover {
+    background-color: #3e8e41;
+    color: white;
+    
+  }
+  
+  #footer {
+    position: relative;
+    height: 200px;
+    background-color: #f2f2f200;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  

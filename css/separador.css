@@ -1,0 +1,7 @@
+.separador {
+  border-bottom: 2px dashed #333;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+  align-self: center;
+}
