@@ -1,7 +1,7 @@
 const itemsList = document.getElementById('items-list');
 const totalPrice = document.getElementById('total-price');
 const checkoutButton = document.getElementById('checkout-button');
-
+const totalp= document.getElementById('total-price'); ;
 const products = [
   { name: 'Media pension - 3 dias (x persona)', price: 2000 },
   { name: 'Pension completa - 3 dias (x persona)', price: 3500 },
@@ -52,13 +52,20 @@ function showCart() {
     total += product.price;
   });
   itemsList.innerHTML = html;
-  totalPrice.innerText = total;
+   totalp = totalPrice.innerText = total;
 }
 
 checkoutButton.addEventListener('click', () => {
-  let email = prompt("Por favor ingrese su correo electrónico:");
-  alert("Su correo electrónico es: " + email);
+  console.log(totalPrice.innerText);
+  if(totalPrice.innerText==0){
+    alert("No ha agragado nada al carrito!");
+  }else{
+    let email = prompt("Por favor ingrese su correo electrónico:");
+    alert("Su correo electrónico es: " + email);
     alert (`¡Gracias por su compra! Le llegara un email de "Turismo viajes" con todos los detalles de la misma. Total: $${totalPrice.innerText}`);
+}
+   
+    
 });
 
 showCart();
