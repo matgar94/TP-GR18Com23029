@@ -12,24 +12,23 @@ const products = [
   { name: 'Buceo por los arrecifes - (x persona)', price: 400 },
   { name: 'Paseo nocturno (fiestas) - (x persona)', price: 600 },
   { name: 'ALLINCLUSIVE - (x persona)', price: 8500 },
-  { name: 'Media pension - 3 dias (x persona)', price: 1000 },
-  { name: 'Pension completa - 3 dias (x persona)', price: 1750 },
-  { name: 'Media pension - 7 dias (x persona)', price: 2000 },
-  { name: 'Pension completa - 7 dias (x persona)', price: 3250 },
-  { name: 'Paseo con los monos titi - (x persona)', price: 400 },
-  { name: 'Saltos del mocona kayak - (x persona)', price: 1000 },
-  { name: 'Tour en garganta del diablo - (x persona)', price: 980 },
-  { name: 'Conoce ciudad del este - (x persona)', price: 600 },
-  { name: 'ALLINCLUSIVE - (x persona)', price: 5000 },
-  { name: 'Media pension - 3 dias (x persona)', price: 750 },
-  { name: 'Pension completa - 3 dias (x persona)', price: 1200 },
-  { name: 'Media pension - 7 dias (x persona)', price: 2000 },
-  { name: 'Pension completa - 7 dias (x persona)', price: 3500 },
-  { name: 'Ruta del vino de Mendoza - (x persona)', price: 750 },
+  { name: 'Media pension - 3 dias (x persona)', price: 1000 },//10
+  { name: 'Pension completa - 3 dias (x persona)', price: 1750 },//11
+  { name: 'Media pension - 7 dias (x persona)', price: 2000 },//12
+  { name: 'Pension completa - 7 dias (x persona)', price: 3250 },//13
+  { name: 'Paseo Parque Nacional Cataratas - (x persona)', price: 400 },//14
+  { name: 'Visita ciudad del este - (x persona)', price: 1000 },//15
+  { name: 'Visita represa Itaipú - (x persona)', price: 280 },//16
+  { name: 'Conoce ciudad del este - (x persona)', price: 600 },//17
+  { name: 'ALLINCLUSIVE - (x persona)', price: 5000 },//18
+  { name: 'Media pension - 3 dias (x persona)', price: 750 },//19
+  { name: 'Pension completa - 3 dias (x persona)', price: 1200 },//20
+  { name: 'Media pension - 7 dias (x persona)', price: 2000 },//21
+  { name: 'Pension completa - 7 dias (x persona)', price: 3500 },//22
+  { name: 'Ruta del vino de Mendoza - (x persona)', price: 750 },//23
   { name: 'Parque Provincial Aconcagua - (x persona)', price: 1350 },
-  { name: 'Conoce el puente del Inca - (x persona)', price: 400 },
-  { name: 'Paseo nocturno (fiestas) - (x persona)', price: 600 },
-  { name: 'ALLINCLUSIVE - (x persona)', price: 4500 },
+  { name: 'Conoce el puente del Inca - (x persona)', price:400 }, //24
+  { name: 'ALLINCLUSIVE - (x persona)', price: 4500 }, //25
    
 ];
 
