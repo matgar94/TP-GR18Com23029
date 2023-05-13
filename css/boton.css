@@ -43,6 +43,7 @@
   }
   .boton-estilo-carrito{
     padding: 0.2em;
+    text-decoration: none;
     align-items: center;
     text-align: center;
     border-radius: 5px;
