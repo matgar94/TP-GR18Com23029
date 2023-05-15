@@ -16,7 +16,6 @@ h1{
     text-align: center;
 }
 
-
 .inicio {
     font-weight: 800;
     font-size: 40px;
@@ -41,3 +40,18 @@ a:hover{
     background-color:rgb(77, 255, 231);
     backdrop-filter: blur(100px);
 }
+
+
+.texto{
+    border-radius: 4px;
+    background-color: #1eb7f4;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
