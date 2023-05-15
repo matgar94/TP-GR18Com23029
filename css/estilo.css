@@ -32,6 +32,9 @@ h1{
     border-bottom: 2px solid hsl(0, 0%, 0%);
     background-color: #f0b651;
 }
+.menu-inicio ul{
+    padding: 0.6em;
+}
 .centrado{
    padding-top: 0; 
 }
