@@ -31,6 +31,7 @@ h1{
     padding-bottom: 2em;
     border-bottom: 2px solid hsl(0, 0%, 0%);
     background-color: #f0b651;
+    
 }
 .menu-inicio ul{
     padding: 0.6em;
@@ -148,16 +149,9 @@ figure{
     border-style: dashed ;
 }
 
-.mendoza:table{
-    display: flex;
-    flex-flow: row wrap;
-    max-width: max-content;
-    padding: 0;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-}
 footer {
     border-bottom: 2px solid hsl(0, 0%, 0%);
+    height: 40px;
     background-color: #f0b651;
     display: flex;
     justify-content: center;
@@ -168,6 +162,7 @@ footer {
     position: absolute;
     color: wheat;
   }
+
 .contenedor{
     display: flex;
     flex-direction: column;
