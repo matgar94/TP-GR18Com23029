@@ -18,6 +18,10 @@
       
       console.log(result.DailyForecasts[0].Date);
       console.log(result.DailyForecasts[0].Temperature);
+      obj = JSON.stringify(result.DailyForecasts[0].Temperature);
+      console.log(obj);
+      const objet = JSON.parse(obj);
+      
       
     })
 
