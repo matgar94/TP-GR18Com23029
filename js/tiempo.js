@@ -1,4 +1,5 @@
-  fetch('http://dataservice.accuweather.com/forecasts/v1/daily/1day/7894?apikey=DWJjhc7Kj0IxYGOnZOVT8jVmuSwV97G6&metric=true', {
+
+ fetch('http://dataservice.accuweather.com/forecasts/v1/daily/1day/7894?apikey=DWJjhc7Kj0IxYGOnZOVT8jVmuSwV97G6&metric=true', {
     method: 'GET',
     headers: {
         'Accept': 'application/json',
@@ -10,5 +11,15 @@
     return response.json();  
   })
 
-   .then(response => console.log(JSON.stringify(response)))
+.then(
+    (result) => {
+      
+      console.log("Result",JSON.stringify(result));
+      
+      console.log(result.DailyForecasts[0].Date);
+      console.log(result.DailyForecasts[0].Temperature);
+      
+    })
+
+
    
