@@ -10,14 +10,9 @@
     console.log(JSON.stringify(response))
     return response.json();  
   })
-
 .then(
     (result) => {
-      //console.log("Result",JSON.stringify(result));
-      //console.log(result.DailyForecasts[0].Date);
-      //console.log(result.DailyForecasts[0].Temperature);
       obj = JSON.stringify(result.DailyForecasts[0].Temperature);
-      //console.log(obj);
       const objet = JSON.parse(obj);
       console.log(objet);
       obj1 = JSON.stringify(objet.Maximum);
