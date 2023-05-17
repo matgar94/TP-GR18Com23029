@@ -25,7 +25,7 @@
       const objet1 = JSON.parse(obj1);
       console.log(objet1.Value);
       console.log(objet1.Unit);
-      document.getElementById("demo").innerHTML = objet1.Value;
+      document.getElementById("demo").innerHTML = "La temperatura en Buenos Aires es: " + objet1.Value + " ºC";
     })
 
 
