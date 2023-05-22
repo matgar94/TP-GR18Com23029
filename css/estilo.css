@@ -163,6 +163,21 @@ footer {
     color: wheat;
   }
 
+.footer1 {
+    border-bottom: 2px solid hsl(0, 0%, 0%);
+    height: 40px;
+    background-color: #f0b651;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: auto;
+    position: absolute;
+    color: wheat;
+  }
+
+
 .contenedor{
     display: flex;
     flex-direction: column;
@@ -202,7 +217,9 @@ footer{
 }
 .itemboton{
     align-items: center;
+    text-align: center;
 }
+
 .itemboton:hover{
     transition: all 0.2s ease-in-out; 
   background-color: #f4511e;
