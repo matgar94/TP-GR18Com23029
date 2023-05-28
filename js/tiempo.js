@@ -23,9 +23,6 @@
       document.getElementById("demo").innerHTML = "La temperatura en Buenos Aires es: " + objet1.Value + " ºC";
     })
 
-    //Prueba con otra api para ver si anda en githubpages..
-    fetch('https://fakestoreapi.com/products/2')
-    .then(res=>res.json())
-    .then(json=>console.log(json))
+ 
 
    
